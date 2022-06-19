@@ -1,0 +1,48 @@
+@media screen and (max-width: 1440px){
+    body {
+        background-image: url("bg-hero-desktop.svg");
+    }
+    
+}
+@media screen and (max-width: 375px) {
+    body {
+        background-image: url("bg-hero-mobile.svg");
+    }
+}
+
+* body {
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+div {
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 10px 4px;
+}
+.bottom {
+    background-color:hsl(192, 100%, 9%);
+    float: right;
+     
+   
+    color: white;
+}
+ul {
+    list-style-type: none;
+}
+.top {
+    background-color:hsl(209, 68%, 73%);
+}
+
+div {
+    height: 100%;
+}
+.ready {
+    width: 100%;
+    box-sizing: content-box;
+}
+nav {
+    display: flex;
+}
+
