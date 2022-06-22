@@ -17,13 +17,15 @@
 }
 
 div {
-    border: 1px solid grey;
+    border: 2px solid grey;
     padding: 10px;
     margin: 10px 4px;
 }
 .bottom {
     background-color:hsl(192, 100%, 9%);
-    float: right;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
      
    
     color: white;
@@ -34,15 +36,29 @@ ul {
 .top {
     background-color:hsl(209, 68%, 73%);
 }
-
-div {
-    height: 100%;
+p {
+    width: 50%;
+    
+    float: right;
 }
-.ready {
-    width: 100%;
-    box-sizing: content-box;
+img {
+    width: 50%;
 }
-nav {
-    display: flex;
+div nav {
+    
+    justify-content: stretch;
 }
-
+.eight {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.lesser {
+    width: 50%;
+    margin:auto ;
+    float: inline-end;
+    margin-top: 20px;
+}
+.small {
+    width: 20px;
+}
